@@ -1,10 +1,10 @@
 # Hire Ligia (2000s Version)
 
-This project is a personal portfolio website designed in the style of early 2000s web design. It showcases my skills, certificates, projects, and contact information in a nostalgic format reminiscent of websites from that era.
+This project is a personal portfolio website designed in the style of early 2000s web design. It showcases my skills, certificates, projects, and contact information in a nostalgic format reminiscent of websites from that era. It was based on [Hire Ligia's Personal Portfolio React App](https://hiralinda.github.io/hireligia/)
 
 ## Live Website
 
-[URL Link]()
+[URL Link](https://hiralinda.github.io/hiraligia-2000s-version/)
 
 ## Features
 
