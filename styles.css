@@ -1,0 +1,115 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: #CCCCFF;
+    color: #000080;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+
+td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+.navbar {
+    background-color: #000080;
+    text-align: center;
+}
+
+.navbar a {
+    color: #FFFF00;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #FFFF00;
+    color: #000080;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #FF0000;
+    text-shadow: 2px 2px #FFFF00;
+}
+
+h2 {
+    font-size: 20px;
+    color: #008000;
+    border-bottom: 2px solid #008000;
+}
+
+a {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #FF00FF;
+}
+
+.hero-links a, .project-links a, #contact a {
+    display: inline-block;
+    background-color: #FFFF00;
+    color: #000080;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 2px outset #CCCCCC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-links a:hover, .project-links a:hover, #contact a:hover {
+    border-style: inset;
+}
+
+ul {
+    list-style-type: square;
+    color: #800080;
+}
+
+button {
+    background-color: #00FF00;
+    color: #000000;
+    border: 2px outset #00CC00;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    border-style: inset;
+}
+
+.footer {
+    background-color: #000080;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+
+/* Marquee effect for skills */
+.skills-container {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.skills-column {
+    display: inline-block;
+    animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
