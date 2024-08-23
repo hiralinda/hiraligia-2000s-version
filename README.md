@@ -4,7 +4,7 @@ This project is a personal portfolio website designed in the style of early 2000
 
 ## Live Website
 
-[URL Link](https://hiralinda.github.io/hiraligia-2000s-version/)
+[URL Link](https://hiralinda.github.io/hireligia-2000s-version/)
 
 ## Features
 
